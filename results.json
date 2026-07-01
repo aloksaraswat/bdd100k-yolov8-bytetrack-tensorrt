@@ -1,0 +1,31 @@
+{
+  "gpu": "Tesla T4",
+  "rows": [
+    {
+      "variant": "PyTorch FP32",
+      "map50": 0.6365,
+      "map5095": 0.351,
+      "infer_ms": 6.0,
+      "infer_fps": 166.5,
+      "mem": 68.1
+    },
+    {
+      "variant": "TensorRT FP16",
+      "map50": 0.6386,
+      "map5095": 0.3491,
+      "infer_ms": 3.2,
+      "infer_fps": 312.7,
+      "mem": 55.7
+    },
+    {
+      "variant": "TensorRT INT8",
+      "map50": 0.629,
+      "map5095": 0.3344,
+      "infer_ms": 3.45,
+      "infer_fps": 290.1,
+      "mem": 55.7
+    }
+  ],
+  "track_fps": 128.5,
+  "track_frames": 647
+}

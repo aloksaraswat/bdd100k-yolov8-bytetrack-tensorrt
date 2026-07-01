@@ -1,0 +1,27 @@
+# data + run artifacts
+datasets/
+runs/
+bdd_raw/
+*.zip
+*.mp4
+
+# TensorRT engines are GPU-specific; rebuild locally
+*.engine
+
+# intermediate export formats
+*.onnx
+
+# base/pretrained weights auto-downloaded by Ultralytics
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+yolov8l.pt
+yolov8x.pt
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# fiftyone local cache
+.fiftyone/
